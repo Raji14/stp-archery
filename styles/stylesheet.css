@@ -152,6 +152,7 @@ h3 {
 
 .contact h3 {
   padding: 0;
+  padding-top: .25em;
 }
 
 .contact a {
@@ -165,14 +166,14 @@ h3 {
 }
 
 #map {
-  margin: 3em 0;
+  margin: 2.5em 0;
   height: 300px;
   width: 90%;
   min-width: 300px;
 }
 
 form h2 {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 input[type=email] {
@@ -181,7 +182,7 @@ input[type=email] {
   padding: .75em 0;
   border: 2px solid gray;
   border-radius: 4px;
-  margin-top: 1em;
+  margin-top: .5em;
   font-size: 1em;
 }
 
@@ -191,7 +192,7 @@ input[type=text] {
   padding: .75em 0;
   border: 2px solid gray;
   border-radius: 4px;
-  margin-top: 1em;
+  margin-top: .5em;
   font-size: 1em;
 }
 
