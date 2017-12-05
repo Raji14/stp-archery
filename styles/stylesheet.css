@@ -14,7 +14,7 @@ body {
   display: flex;
 }
 
-.stpheader img{
+.stpheader img {
   width: 75px;
   height: 75px;
   padding: 1em;
@@ -27,9 +27,10 @@ h1 {
   margin: .50em 0 0 0;
   padding: 0;
 }
+
 h5 {
   font-family: 'Open Sans', sans-serif;
-  margin:0;
+  margin: 0;
   padding: 0;
   color: #fff;
   font-size: 1.5em;
@@ -43,12 +44,12 @@ h5 {
   margin: 0;
   float: left;
   padding: 0;
-  
+
 }
 
 ul {
-  list-style: none; 
-  margin: 0; 
+  list-style: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -57,6 +58,7 @@ ul {
   font-family: 'Oswald', sans-serif;
   font-size: 1.5em;
 }
+
 .primarynav ul li a {
   text-decoration: none;
   color: #000;
@@ -78,15 +80,19 @@ ul li a:hover {
   display: table;
   clear: both;
 }
+
 .center {
   margin: 0;
   padding: 0;
   background-color: #fff;
 }
+
 .centerimg {
   width: 100%;
   margin: 0;
 }
+
+/*Three video containers styling*/
 
 .multiarticle {
   display: flex;
@@ -99,6 +105,7 @@ ul li a:hover {
   margin: 1em;
   border: 1px solid #cccccc;
 }
+
 .modules img {
   width: 100%;
   height: auto;
@@ -125,17 +132,20 @@ h3 {
   padding-left: 1em;
   text-decoration: none;
   color: #4070c8;
-  font-weight:bold;
+  font-weight: bold;
 }
+
 .modules a:hover {
   text-decoration: underline;
 }
 
+/*End of three video containers styling*/
+
 /*Footer styles begins here*/
 
 footer {
-   background-color: #c9c9c9;
-    
+  background-color: #c9c9c9;
+
 }
 
 footer div {
@@ -149,7 +159,7 @@ footer h4 {
 
 footer ul {
   list-style-type: none;
-  
+
 }
 
 footer p {
@@ -158,8 +168,8 @@ footer p {
 }
 
 footer ul li {
-font-size: 1em;
- font-family: 'Open Sans', sans-serif;  
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer ul li a {
@@ -177,6 +187,7 @@ footer ul li a:hover {
   padding: 1em;
   border-right: 1px solid #4a4848;
 }
+
 .socialmedia {
   padding: 0 .20em;
 }
@@ -184,6 +195,7 @@ footer ul li a:hover {
 .socialmedia i {
   padding-right: .5em;
 }
+
 .footunit2 {
   flex: 2;
   padding: 1em;
