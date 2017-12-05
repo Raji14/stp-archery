@@ -261,7 +261,11 @@ div.copyright {
 
 /*original footer styling section*/
 footer {
-   background-color: #c9c9c9;
+  background-color: #c9c9c9;
+
+}
+
+footer div {
   display: flex;
 }
 
@@ -272,7 +276,7 @@ footer h4 {
 
 footer ul {
   list-style-type: none;
-  
+
 }
 
 footer p {
@@ -281,8 +285,8 @@ footer p {
 }
 
 footer ul li {
-font-size: 1em;
- font-family: 'Open Sans', sans-serif;  
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer ul li a {
@@ -300,6 +304,7 @@ footer ul li a:hover {
   padding: 1em;
   border-right: 1px solid #4a4848;
 }
+
 .socialmedia {
   padding: 0 .20em;
 }
@@ -307,7 +312,12 @@ footer ul li a:hover {
 .socialmedia i {
   padding-right: .5em;
 }
+
 .footunit2 {
   flex: 2;
   padding: 1em;
+}
+
+.copyright {
+  text-align: center;
 }
