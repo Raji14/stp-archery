@@ -217,49 +217,6 @@ input[type=submit]:hover {
   color: #fff;
 }
 
-/*footer with grid - commented out
-footer {
-  background-color: #c9c9c9;
-  padding: 16px;
-}
-
-footer ul {
-  list-style-type: none;
-  padding-left: 16px;
-  padding-bottom: 1em;
-}
-
-footer ul li {
-  font-size: 1em;
-  font-family: 'Open Sans', sans-serif;  
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: #000;
-}
-
-footer ul li a:hover {
-  text-decoration: underline;
-  color: #000;
-}
-
-footer i {
-  padding-right: .25em;
-}
-
-footer img {
-  width: 22%;
-  vertical-align: middle;
-  padding: .1em;
-}
-
-div.copyright {
-  text-align: center;
-}
-*/
-
-/*original footer styling section*/
 footer {
   background-color: #c9c9c9;
 
@@ -276,7 +233,6 @@ footer h4 {
 
 footer ul {
   list-style-type: none;
-
 }
 
 footer p {
