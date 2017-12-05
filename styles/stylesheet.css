@@ -5,7 +5,6 @@ body {
 
 .contentwrapper {
   width: 100%;
-  max-width: 1280px;
   margin: auto;
   border: 1px solid #523e33;
 }
@@ -218,7 +217,7 @@ input[type=submit]:hover {
   color: #fff;
 }
 
-/*footer with grid*/
+/*footer with grid - commented out
 footer {
   background-color: #c9c9c9;
   padding: 16px;
@@ -258,8 +257,9 @@ footer img {
 div.copyright {
   text-align: center;
 }
+*/
 
-/*original footer styling section
+/*original footer styling section*/
 footer {
    background-color: #c9c9c9;
   display: flex;
@@ -311,4 +311,3 @@ footer ul li a:hover {
   flex: 2;
   padding: 1em;
 }
-*/
