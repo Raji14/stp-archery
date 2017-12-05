@@ -26,6 +26,15 @@ h1 {
   color: #fff;
   margin: .50em 0 0 0;
   padding: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  color: #4070c8;
 }
 
 h5 {
@@ -141,6 +150,82 @@ h3 {
 
 /*End of three video containers styling*/
 
+/*START Contact main section styling*/
+
+.contact {
+  padding: 2em;
+}
+
+.contact h3 {
+  padding: 0;
+  padding-top: .25em;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+#map {
+  margin: 2.5em 0;
+  height: 300px;
+  width: 90%;
+  min-width: 300px;
+}
+
+form h2 {
+  margin-bottom: 1em;
+}
+
+input[type=email] {
+  width: 90%;
+  min-width: 300px;
+  padding: .75em 0;
+  border: 2px solid gray;
+  border-radius: 4px;
+  margin-top: .5em;
+  font-size: 1em;
+}
+
+input[type=text] {
+  width: 90%;
+  min-width: 300px;
+  padding: .75em 0;
+  border: 2px solid gray;
+  border-radius: 4px;
+  margin-top: .5em;
+  font-size: 1em;
+}
+
+input[type=submit] {
+  width: 90%;
+  min-width: 300px;
+  background-color: #4070c8;
+  border: none;
+  color: white;
+  padding: .35em .5em;
+  margin-top: .5em;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+/*same as h4 */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+  background-color: gray;
+  color: #fff;
+}
+
+/*END contact main section styling*/
+
 /*Footer styles begins here*/
 
 footer {
@@ -159,7 +244,6 @@ footer h4 {
 
 footer ul {
   list-style-type: none;
-
 }
 
 footer p {
@@ -206,3 +290,4 @@ footer ul li a:hover {
 }
 
 /*Footer styles end here*/
+
