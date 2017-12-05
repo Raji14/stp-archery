@@ -4,9 +4,9 @@ body {
 }
 
 .contentwrapper {
-  
+  width: 100%;
+  margin: auto;
   border: 1px solid #523e33;
-  
 }
 
 .stpheader {
@@ -175,3 +175,6 @@ footer ul li a:hover {
   flex: 2;
   padding: 1em;
 }
+
+
+
