@@ -93,6 +93,7 @@ ul li a:hover {
   margin: 0;
   background-color: #fff;
 }
+
 .modules {
   flex: 1;
   margin: 1em;
@@ -103,19 +104,25 @@ ul li a:hover {
   height: auto;
 }
 
+.modules iframe {
+  padding-left: 1em;
+  padding-top: 1em;
+  border: 0;
+}
+
 h3 {
-  padding: .25em;
+  padding: 1em;
   color: #4070c8;
   margin: 0;
 }
 
 .modules p {
-  padding: .25em;
+  padding-left: 1em;
   margin: 0;
 }
 
 .modules a {
-  padding: .25em;
+  padding-left: 1em;
   text-decoration: none;
   color: #4070c8;
   font-weight:bold;
@@ -124,8 +131,14 @@ h3 {
   text-decoration: underline;
 }
 
+/*Footer styles begins here*/
+
 footer {
    background-color: #c9c9c9;
+    
+}
+
+footer div {
   display: flex;
 }
 
@@ -176,5 +189,8 @@ footer ul li a:hover {
   padding: 1em;
 }
 
+.copyright {
+  text-align: center;
+}
 
-
+/*Footer styles end here*/
