@@ -4,7 +4,8 @@ body {
 }
 
 .contentwrapper {
-  
+  width: 100%;
+  margin: auto;
   border: 1px solid #523e33;
   
 }
@@ -21,7 +22,7 @@ body {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 2em;
   color: #fff;
   margin: .50em 0 0 0;
@@ -47,36 +48,26 @@ h5 {
 
 .primarynav {
   background-color: #94c840;
-  height: 50px;
 }
 
 .primarynav nav {
   margin: 0;
   float: left;
   padding: 0;
-  
 }
 
-li {
-  display: inline;
-}
-
-ul li a {
-  font-size: 20pt;
-  padding: 5px;
-}
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #94c840;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .primarynav ul li {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
 }
+
 .primarynav ul li a {
   text-decoration: none;
   color: #000;
@@ -85,33 +76,14 @@ ul {
 }
 
 ul li a:hover {
-  background-color: ;
+  background-color: #c9c9c9;
   color: #fff;
 }
 
 .rightnav {
   float: right;
 }
- 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
  .group:after {
    content: "";
@@ -236,6 +208,3 @@ footer ul li a:hover {
 }
 
 /*Footer styles end here*/
-div.copyright {
-  text-align: center;
-}
