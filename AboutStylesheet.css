@@ -21,15 +21,25 @@ body {
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2em;
   color: #fff;
   margin: .50em 0 0 0;
   padding: 0;
+  text-transform: uppercase;
 }
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  color: #4070c8;
+}
+
 h5 {
   font-family: 'Open Sans', sans-serif;
-  margin:0;
+  margin: 0;
   padding: 0;
   color: #fff;
   font-size: 1.5em;
@@ -75,7 +85,7 @@ ul {
 }
 
 ul li a:hover {
-  background-color: #c9c9c9;
+  background-color: ;
   color: #fff;
 }
 
@@ -162,22 +172,39 @@ font-family: "roboto";
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 
+/*Footer styles begins here*/
+
+footer {
+  background-color: #c9c9c9;
+
+}
+
+footer div {
+  display: flex;
+}
+
+footer h4 {
+  margin: 0;
+  padding: 0;
+}
+
 footer ul {
   list-style-type: none;
-  padding-left: 16px;
-  padding-bottom: 1em;
+}
+
+footer p {
+  padding: 0.20em;
+  margin: 0;
 }
 
 footer ul li {
-  font-size: 3em;
-  font-family: 'Open Sans', sans-serif;  
-  
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 15pt;
 }
 
 footer ul li a:hover {
@@ -185,16 +212,30 @@ footer ul li a:hover {
   color: #000;
 }
 
-footer i {
-  padding-right: .25em;
+.footunit {
+  flex: 1;
+  padding: 1em;
+  border-right: 1px solid #4a4848;
 }
 
-footer img {
-  width: 22%;
-  vertical-align: middle;
-  padding: .1em;
+.socialmedia {
+  padding: 0 .20em;
 }
 
+.socialmedia i {
+  padding-right: .5em;
+}
+
+.footunit2 {
+  flex: 2;
+  padding: 1em;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/*Footer styles end here*/
 div.copyright {
   text-align: center;
 }
